@@ -1,0 +1,38 @@
+.row {
+    height: 2rem;
+    width: fit-content;
+}
+
+.grid {
+    height: 100%;
+    width: 2rem;
+    display: inline-block;
+    /* border: 1px solid black; */
+}
+
+#playground {
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+
+.active-grid {
+    height: 100%;
+    width: 2rem;
+    display: inline-block;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: black;
+    box-shadow: 0 0 2px #000;
+}
+
+.food {
+    height: 100%;
+    width: 2rem;
+    display: inline-block;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: green;
+}
